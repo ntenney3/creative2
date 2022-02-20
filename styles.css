@@ -46,15 +46,29 @@ button {
   color: #555555;
 }
 
+.footer {
+  position: fixed;
+  padding: 10px 0 10px 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #292c30;
+  text-align: center;
+}
+
+.footer p {
+  color: lightgrey;
+}
+
+a:visited {
+  color: #B19CD8;
+}
+
 @media only screen and (min-width: 961px) {
-  body {
+  .static, .dynamic {
     width: 960px;
     margin: 0 auto;
   }
-  .fruitList {
-    width: 600px;
-    margin: auto;
-  }
+
   .option {
     width: 30%;
   }
