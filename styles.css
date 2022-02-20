@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D3D3D3;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.settings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.static {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.option {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 2px solid #152238;
+  margin: 5px;
+}
+
+.option p {
+  margin-right: 5px;
+}
+
+.divider {
+  width: 100%;
+}
+
+button {
+  margin: 10px 0 20px 0;
+}
+
+.newPassword {
+  color: #555555;
+}
+
+@media only screen and (min-width: 961px) {
+  body {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .fruitList {
+    width: 600px;
+    margin: auto;
+  }
+  .option {
+    width: 30%;
+  }

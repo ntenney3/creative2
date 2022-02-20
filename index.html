@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Creative Project 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <div class='static'>
+    <h1>Choose your settings to generate a random password!</h1>
+    <div class='settings'>
+      <div class='option'>
+        <p>Include Numbers  </p>
+        <label class="switch">
+          <input type="checkbox" id='num'>
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class='option'>
+        <p>Include Special Characters  </p>
+        <label class="switch">
+          <input type="checkbox" id='special'>
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class='option'>
+        <p>Include Uppercase Letters  </p>
+        <label class="switch">
+          <input type="checkbox" id='uppercase'>
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class='option'>
+        <p>Enter Password Length (default 8)  </p>
+        <input id='length'></input>
+      </div>
+      <div class='divider'</div>
+      <button id='passwordSubmit'>Get Password!</button>
+    </div>
+  </div>
+
+  <div class='dynamic'></div>
+
+  <script text="type/javascript" src="/script.js">
+  </script>
+
+</body>
+</html>
